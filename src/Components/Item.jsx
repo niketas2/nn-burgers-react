@@ -1,7 +1,7 @@
-function Item({title, description, price}) {
+function Item({title, description, price, image}) {
 	return (
 		<div className='menu_item'>
-			<img src='img/hamburger.png' alt='' />
+			<img src={image} alt='' />
 			<h4>{title}</h4>
 			<p className='menu_item_info'>{description}</p>
 			<div className='container'>

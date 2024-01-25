@@ -1,0 +1,86 @@
+[
+	{
+		"id": 0,
+		"title": "Гамбургер",
+		"img": "https://s7d1.scene7.com/is/image/mcdonalds/Best_HAMBURGER-1:nutrition-calculator-tile",
+		"price": 53,
+		"description": "Біфштекс із яловичини, цибуля, шматочок маринованого огірка, заправлені гірчицею і кетчупом, у запашній булочці із пшеничного борошна"
+	},
+	{
+		"id": 1,
+		"title": "Чізбургер",
+		"img": "https://s7d1.scene7.com/is/image/mcdonalds/Best_CHEESEBURGER-1:nutrition-calculator-tile",
+		"price": 62,
+		"description": "Біфштекс із яловини, шматочку сиру Чедер, шматочок маринованого огірка та цибуля, заправлені гірчицею і кетчупом, у булочці із пшнеичного борошна "
+	},
+	{
+		"id": 2,
+		"title": "Дабл-Чізбургер",
+		"img": "https://s7d1.scene7.com/is/image/mcdonalds/Best_DBL_CHEESEBURGER-1:nutrition-calculator-tile",
+		"price": 95,
+		"description": "Два біфштекси з натуральної яловичини два шматочки Чеддер, цибуля, маринований огірок, гірчиця, кетчуп, булочка"
+	},
+	{
+		"id": 3,
+		"title": "Мак-Чікен",
+		"img": "https://s7d1.scene7.com/is/image/mcdonalds/Best_McChicken:nutrition-calculator-tile",
+		"price": 98,
+		"description": "Класичний смак, простий вибір. Хрустка куряга котелта із сокотивим салатом і ніжним соусом. Ну як тут відмовитись ?"
+	},
+	{
+		"id": 11,
+		"title": "Чикен Джуниор",
+		"img": "https://s7d1.scene7.com/is/image/mcdonalds/Best_Chicken_junior-1:nutrition-calculator-tile",
+		"price": 123,
+		"description": "Соковита куряча котлета із хрусткими шматочками огірка під Медово-гірчичним соусом у запашній булочці із пшеничного борошна"
+	},
+	{
+		"id": 7,
+		"title": "Філе-о-фіш",
+		"img": "https://s7d1.scene7.com/is/image/mcdonalds/Best_FILE_O_FISH:nutrition-calculator-tile",
+		"price": 95,
+		"description": "Ніжне рибне филе, засмажене в хрмукій паніровці, пів шматочка сиру Чедер, заправлені соусом Тартар, у пшеничній булочці"
+	},
+	{
+		"id": 4,
+		"title": "Біг Мак",
+		"img": "https://s7d1.scene7.com/is/image/mcdonalds/Best_BIGMAC-1:nutrition-calculator-tile",
+		"price": 112,
+		"description": "Два біфштекси із яловичини, цибуля, маринований огірок, сир Чеддер, свіжий салат, запрпвлені соусом Біг Мак, у булочці з насінням сезаму."
+	},
+	{
+		"id": 5,
+		"title": "Дабл Бігмак",
+		"img": "https://s7d1.scene7.com/is/image/mcdonalds/DOUBLE_BIGMAC_Public:nutrition-calculator-tile",
+		"price": 179,
+		"description": "Уяви свій улюблений Біг Мак® і помнож насолоду на два. Цілих чотири соковиті яловичі котлетки, свіжий салат, особливий соус та сир «Чедер». Подужаєш Дабл Біг Мак®"
+	},
+	{
+		"id": 6,
+		"title": "Біг Тейсті",
+		"img": "https://s7d1.scene7.com/is/image/mcdonalds/Best_BIG_TASTY-1:nutrition-calculator-tile",
+		"price": 187,
+		"description": "Соковита яловича котлета, свіжі вочі та три скибочки сиру Ементаль, приправлені фурмовим соусом - і все в пухкій улочці з кунжутом"
+	},
+	{
+		"id": 8,
+		"title": "Роял Чізбургер",
+		"img": "https://s7d1.scene7.com/is/image/mcdonalds/Best_ROYAL_CHEESEBURGER-1:nutrition-calculator-tile",
+		"price": 127,
+		"description": "Біфштекс із натуральної яловичини, два слайсі сиру Чедер, два щматочки маринованого огірка та свіжа цибуля, заправлені гірчицею та кетчупом, у булочці з пшеничного борошна"
+	},
+	{
+		"id": 9,
+		"title": "Дабл Роял",
+		"img": "https://s7d1.scene7.com/is/image/mcdonalds/Best_CHEESE_BACON-1:nutrition-calculator-tile",
+		"price": 192,
+		"description": "Два біфштекси з натуральної яловиини в поєдненні з двома слайсами ніжного сиру Чедер, двома огірочками та свідою цибулькою, заправлені гірчице та кетчупом, у булочці з пшеничного борошна"
+	},
+	{
+		"id": 10,
+		"title": "Чізбургер із беконом",
+		"img": "https://s7d1.scene7.com/is/image/mcdonalds/Best_CHEESE_BACON-1:nutrition-calculator-tile",
+		"price": 77,
+		"description": "Соковитий біфштекс із яловичини, доповнений хрумким беконом і марнованим огірком, у поєднанні зі шматочком сиру Чедер та цибулею - усе це заправлео гірчицею та кетчпом у запашній булочці із пшеничного борошна"
+	}
+]
