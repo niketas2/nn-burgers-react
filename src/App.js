@@ -16,7 +16,14 @@ function App() {
 				<div className='content'>
 					<div className='container'>
 						<div className='menu_list'>
-							<Item title='123' price='123' description='123' />
+							{items.map(obj => (
+								<Item
+									title={obj.title}
+									price={obj.price}
+									description={obj.description}
+									image={obj.img}
+								/>
+							))}
 						</div>
 					</div>
 				</div>

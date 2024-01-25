@@ -1,4 +1,6 @@
+import cart from '../assets/img/cart.png'
 import logoPng from '../assets/img/logo.png'
+import search from '../assets/img/search.png'
 
 function Header() {
 	return (
@@ -17,7 +19,7 @@ function Header() {
 						</div>
 					</div>
 					<div className='header_search'>
-						<img src='img/search.png' alt='' className='search_img'></img>
+						<img src={search} alt='' className='search_img'></img>
 						<input
 							type='search'
 							id='searchInput'
@@ -30,7 +32,7 @@ function Header() {
 						<a href='/cart.html'>
 							<p>0 ₴</p>
 							<div className='button_delimiter'></div>
-							<img src='img/cart.png' alt='' />
+							<img src={cart} alt='' />
 							<p>0</p>
 						</a>
 					</div>
