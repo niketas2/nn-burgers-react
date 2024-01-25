@@ -1,3 +1,5 @@
+import logoPng from '../assets/img/logo.png'
+
 function Header() {
 	return (
 		<header>
@@ -6,7 +8,7 @@ function Header() {
 					<div className='header_name_logo'>
 						<div className='header_logo'>
 							<a href='#'>
-								<img src='img/logo.png' alt='' />
+								<img src={logoPng} alt='' />
 							</a>
 						</div>
 						<div className='header_name'>

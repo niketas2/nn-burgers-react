@@ -1,6 +1,7 @@
 import Categories from './Components/Categories'
 import Header from './Components/Header'
 import Item from './Components/Item'
+import items from './assets/items.json'
 import './css/style.scss'
 
 function App() {
@@ -15,11 +16,7 @@ function App() {
 				<div className='content'>
 					<div className='container'>
 						<div className='menu_list'>
-							<Item
-								title={obj.title}
-								price={obj.rpice}
-								description='Біфштекс із яловичини, цибуля, шматочок маринованого огірка, заправлені гірчицею і кетчупом, у запашній булочці із пшеничного борошна'
-							/>
+							<Item title='123' price='123' description='123' />
 						</div>
 					</div>
 				</div>
