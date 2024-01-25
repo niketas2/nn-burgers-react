@@ -125,14 +125,15 @@ header::after {
 			&:hover {
 				background-color: darken(#f9f9f9, 2%);
 			}
-
 			&:active {
 				background-color: darken(#f9f9f9, 5%);
 			}
-
-			&:active {
-				background-color: #282828;
-				color: #fff;
+		}
+		.active {
+			background-color: #282828;
+			color: #fff;
+			&:hover {
+				background-color: darken(#282828, 2%);
 			}
 		}
 	}
@@ -178,9 +179,13 @@ header::after {
 				background-color: #fff;
 				padding: 10px;
 				cursor: pointer;
-				transition: all 0.3s ease;
+				transition: all 0.2s ease;
 				&:hover {
-					transform: scale(1.05);
+					transform: scale(1.03);
+				}
+				&:active {
+					background: #ffe9e9;
+					transform: translate(0px, 2px);
 				}
 			}
 			.price {

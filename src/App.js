@@ -16,8 +16,8 @@ function App() {
 					<div className='container'>
 						<div className='menu_list'>
 							<Item
-								title='Гамбургер'
-								price='53'
+								title={obj.title}
+								price={obj.rpice}
 								description='Біфштекс із яловичини, цибуля, шматочок маринованого огірка, заправлені гірчицею і кетчупом, у запашній булочці із пшеничного борошна'
 							/>
 						</div>
