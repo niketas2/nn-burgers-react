@@ -7,19 +7,17 @@ function Categories() {
 
 	return (
 		<div className='nav_menu'>
-			<div className='container'>
-				<ul>
-					{Categories.map((value, index) => (
-						<li
-							key={index}
-							onClick={() => setActiveCategory(index)}
-							className={activeCategory === index ? 'active' : ''}
-						>
-							{value}
-						</li>
-					))}
-				</ul>
-			</div>
+			<ul>
+				{Categories.map((value, index) => (
+					<li
+						key={index}
+						onClick={() => setActiveCategory(index)}
+						className={activeCategory === index ? 'active' : ''}
+					>
+						{value}
+					</li>
+				))}
+			</ul>
 		</div>
 	)
 }
