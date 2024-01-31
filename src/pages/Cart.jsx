@@ -1,10 +1,11 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
+import Hamburger from '../assets/img/burgers/hamburger.png'
 import CartInCart from '../assets/img/cart_in_cart.png'
-import Trash from '../assets/img/trash.png'
 import Minus from '../assets/img/minus.png'
 import Plus from '../assets/img/plus.png'
+import Trash from '../assets/img/trash.png'
 import X from '../assets/img/x.png'
-import Hamburger from '../assets/img/burgers/hamburger.png'
 
 const Cart = () => {
 	return (
@@ -83,9 +84,11 @@ const Cart = () => {
 							</div>
 						</div>
 						<div class='buttons'>
-							<button class='go_back' href='/index.html'>
-								Вернуться назад
-							</button>
+							<Link to='/'>
+								<button class='go_back' href='/index.html'>
+									Вернуться назад
+								</button>
+							</Link>
 							<button class='pay' href=''>
 								Оплатить сейчас
 							</button>

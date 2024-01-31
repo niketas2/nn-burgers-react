@@ -4,25 +4,28 @@ import Skeleton from '../Components/BurgersBlock/Skeleton'
 import Categories from '../Components/Categories'
 
 export const Home = () => {
+	const [categoryId, setCategoryId] = React.useState(0)
 	const [items, setItems] = React.useState([])
 	const [isLoading, setIsLoading] = React.useState(true)
 
 	React.useEffect(() => {
-		fetch('https://65b58d1941db5efd2867c3d0.mockapi.io/Burgers')
+		setIsLoading(true)
+		fetch(
+			'https://65b58d1941db5efd2867c3d0.mockapi.io/Items?category=' + categoryId
+		)
 			.then(res => {
 				return res.json()
 			})
 			.then(arr => {
-				setTimeout(() => {
-					setItems(arr)
-					setIsLoading(false)
-				}, 100)
+				setItems(arr)
+				setIsLoading(false)
 			})
-	}, [])
+		window.scrollTo(0, 0)
+	}, [categoryId])
 
 	return (
 		<>
-			<Categories />
+			<Categories value={categoryId} onChangeCategory={i => setCategoryId(i)} />
 			<div className='name'>
 				<div className='container'>Меню</div>
 			</div>
