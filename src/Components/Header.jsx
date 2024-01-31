@@ -1,9 +1,9 @@
 import {Link} from 'react-router-dom'
 import cart from '../assets/img/cart.png'
 import logoPng from '../assets/img/logo.png'
-import search from '../assets/img/search.png'
+import Search from './Search/'
 
-function Header() {
+function Header({searchValue, setSearchValue}) {
 	return (
 		<header>
 			<div className='container'>
@@ -19,16 +19,7 @@ function Header() {
 							<p>Самые вкусные бургеры кєбенуматері</p>
 						</div>
 					</div>
-					<div className='header_search'>
-						<img src={search} alt='' className='search_img'></img>
-						<input
-							type='search'
-							id='searchInput'
-							className='search'
-							name='search'
-							placeholder='Найти бургер...'
-						/>
-					</div>
+					<Search searchValue={searchValue} setSearchValue={setSearchValue} />
 					<div className='header_cart'>
 						<Link to='/cart'>
 							<p>0 ₴</p>

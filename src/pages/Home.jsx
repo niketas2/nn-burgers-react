@@ -3,7 +3,7 @@ import Item from '../Components/BurgersBlock'
 import Skeleton from '../Components/BurgersBlock/Skeleton'
 import Categories from '../Components/Categories'
 
-export const Home = () => {
+export const Home = ({searchValue}) => {
 	const [categoryId, setCategoryId] = React.useState(0)
 	const [items, setItems] = React.useState([])
 	const [isLoading, setIsLoading] = React.useState(true)
@@ -32,15 +32,24 @@ export const Home = () => {
 			<div className='menu_list'>
 				{isLoading
 					? [...new Array(12)].map(() => <Skeleton />)
-					: items.map(obj => (
-							<Item
-								key={obj.id}
-								title={obj.title}
-								price={obj.price}
-								description={obj.description}
-								image={obj.img}
-							/>
-					  ))}
+					: items
+							.filter(obj => {
+								if (
+									obj.title.toLowerCase().includes(searchValue.toLowerCase())
+								) {
+									return true
+								}
+								return false
+							})
+							.map(obj => (
+								<Item
+									key={obj.id}
+									title={obj.title}
+									price={obj.price}
+									description={obj.description}
+									image={obj.img}
+								/>
+							))}
 			</div>
 		</>
 	)
