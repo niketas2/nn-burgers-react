@@ -3,7 +3,7 @@ import cart from '../assets/img/cart.png'
 import logoPng from '../assets/img/logo.png'
 import Search from './Search/'
 
-function Header({searchValue, setSearchValue}) {
+function Header() {
 	return (
 		<header>
 			<div className='container'>
@@ -19,7 +19,7 @@ function Header({searchValue, setSearchValue}) {
 							<p>Самые вкусные бургеры кєбенуматері</p>
 						</div>
 					</div>
-					<Search searchValue={searchValue} setSearchValue={setSearchValue} />
+					<Search />
 					<div className='header_cart'>
 						<Link to='/cart'>
 							<p>0 ₴</p>
