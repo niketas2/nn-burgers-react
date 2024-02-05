@@ -9,87 +9,87 @@ import X from '../assets/img/x.png'
 
 const Cart = () => {
 	return (
-		<div class='cart_content'>
-			<div class='container'>
-				<div class='cart_content_info'>
-					<div class='cart_top'>
-						<div class='cart_top_left'>
-							<img src={CartInCart} />
+		<div className='cart_content'>
+			<div className='container'>
+				<div className='cart_content_info'>
+					<div className='cart_top'>
+						<div className='cart_top_left'>
+							<img src={CartInCart} alt=""/>
 							<h1>Корзина</h1>
 						</div>
-						<div class='cart_top_right'>
+						<div className='cart_top_right'>
 							<img src={Trash} alt='' />
-							<a href='/empty cart.html'>Очистить корзину</a>
+							<a href='#'>Очистить корзину</a>
 						</div>
 					</div>
-					<div class='item_delimiter'></div>
-					<div class='cart_item_info'>
-						<div class='itemName' id='CartItemName'>
+					<div className='item_delimiter'></div>
+					<div className='cart_item_info'>
+						<div className='itemName' id='CartItemName'>
 							<img src={Hamburger} alt='' />
 							<h4>Гамбургер</h4>
 						</div>
-						<div class='add_delete'>
-							<img src={Minus} class='delete' id='MinusItemFromCart' alt='' />
-							<img src={Plus} class='add' id='AddItemToCart' alt='' />
+						<div className='add_delete'>
+							<img src={Minus} className='delete' id='MinusItemFromCart' alt='' />
+							<img src={Plus} className='add' id='AddItemToCart' alt='' />
 						</div>
-						<p class='price' id='Price'>
+						<p className='price' id='Price'>
 							53 ₴
 						</p>
-						<img src={X} alt='' class='deleteItem' id='DelItemFromCart' />
+						<img src={X} alt='' className='deleteItem' id='DelItemFromCart' />
 					</div>
-					<div class='item_delimiter'></div>
-					<div class='cart_item_info'>
-						<div class='itemName' id='CartItemName'>
+					<div className='item_delimiter'></div>
+					<div className='cart_item_info'>
+						<div className='itemName' id='CartItemName'>
 							<img src={Hamburger} alt='' />
 							<h4>Гамбургер</h4>
 						</div>
-						<div class='add_delete'>
-							<img src={Minus} class='delete' id='MinusItemFromCart' alt='' />
-							<img src={Plus} class='add' id='AddItemToCart' alt='' />
+						<div className='add_delete'>
+							<img src={Minus} className='delete' id='MinusItemFromCart' alt='' />
+							<img src={Plus} className='add' id='AddItemToCart' alt='' />
 						</div>
-						<p class='price' id='Price'>
+						<p className='price' id='Price'>
 							53 ₴
 						</p>
-						<img src={X} alt='' class='deleteItem' id='DelItemFromCart' />
+						<img src={X} alt='' className='deleteItem' id='DelItemFromCart' />
 					</div>
-					<div class='item_delimiter'></div>
-					<div class='cart_item_info'>
-						<div class='itemName' id='CartItemName'>
+					<div className='item_delimiter'></div>
+					<div className='cart_item_info'>
+						<div className='itemName' id='CartItemName'>
 							<img src={Hamburger} alt='' />
 							<h4>Гамбургер</h4>
 						</div>
-						<div class='add_delete'>
-							<img src={Minus} alt='' class='delete' id='MinusItemFromCart' />
-							<img src={Plus} class='add' id='AddItemToCart' alt='' />
+						<div className='add_delete'>
+							<img src={Minus} alt='' className='delete' id='MinusItemFromCart' />
+							<img src={Plus} className='add' id='AddItemToCart' alt='' />
 						</div>
-						<p class='price' id='Price'>
+						<p className='price' id='Price'>
 							53 ₴
 						</p>
-						<img src={X} alt='' class='deleteItem' id='DelItemFromCart' />
+						<img src={X} alt='' className='deleteItem' id='DelItemFromCart' />
 					</div>
-					<div class='item_delimiter'></div>
+					<div className='item_delimiter'></div>
 				</div>
-				<div class='cart_bottom'>
-					<div class='container'>
-						<div class='cart_bottom_content'>
-							<div class='all_items'>
+				<div className='cart_bottom'>
+					<div className='container'>
+						<div className='cart_bottom_content'>
+							<div className='all_items'>
 								Всего:
 								<p>3шт</p>
 							</div>
-							<div class='sum_to_pay'>
+							<div className='sum_to_pay'>
 								Сумма заказа:
-								<p class='sum' id='Sum'>
+								<p className='sum' id='Sum'>
 									159₴
 								</p>
 							</div>
 						</div>
-						<div class='buttons'>
+						<div className='buttons'>
 							<Link to='/'>
-								<button class='go_back' href='/index.html'>
+								<button className='go_back'>
 									Вернуться назад
 								</button>
 							</Link>
-							<button class='pay' href=''>
+							<button className='pay'>
 								Оплатить сейчас
 							</button>
 						</div>

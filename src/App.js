@@ -14,7 +14,7 @@ function App() {
 		<div className='App'>
 			<div className='wrapper'>
 				<SearchContext.Provider value={{searchValue, setSearchValue}}>
-					<Header />
+					<Header/>
 					<div className='content'>
 						<div className='container'>
 							<Routes>
@@ -27,8 +27,8 @@ function App() {
 										/>
 									}
 								/>
-								<Route path='*' element={<NotFound />} />
-								<Route path='/cart' element={<Cart />} />
+								<Route path='*' element={<NotFound/>}/>
+								<Route path='/cart' element={<Cart/>}/>
 							</Routes>
 						</div>
 					</div>
