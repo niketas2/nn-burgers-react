@@ -9,8 +9,11 @@ export const categorySlice = createSlice({
   reducers:{
     setCategoryId(state, action){
       state.categoryId = action.payload
+    },
+    setFilters(state,action){
+      state.categoryId = Number(action.payload.categoryId)
     }
   },
 })
-export const {setCategoryId} = categorySlice.actions
+export const {setCategoryId, setFilters} = categorySlice.actions
 export default categorySlice.reducer
